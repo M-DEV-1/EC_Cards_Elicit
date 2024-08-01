@@ -1,1 +1,2 @@
-"# EC_Cards_Elicit" 
+# Executive Commitee Cards Page for ACM Elicit
+

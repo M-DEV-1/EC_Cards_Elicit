@@ -5,6 +5,8 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <div className='backdrop-blur bg-gradient-to-r from-black from-7.5%  via-red-950 via-55% to-red-800 text-gray-200 antialiased vsc-initialized'>
+        <App />
+    </div>
   </React.StrictMode>,
 )

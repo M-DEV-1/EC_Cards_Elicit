@@ -4,8 +4,8 @@ import PlaceHolderImage from "../assets/team-placeholder.jpg"
 
 function ExecCard(prop){
    return (
-    <div className='flex p-12 flex-wrap'>
-        <div className='w-72 h-80 rounded-xl font-mono overflow-hidden bg-gradient-to-r from-black from-5% to-emerald-600  text-pretty text-center text-gray-300 border hover:border-spacing-3 min-w-60 hover:scale-110 hover: ease-linear duration-200 hover:shadow'>
+    <div className='p-10'>
+        <div className='w-72 h-80 rounded-xl font-mono overflow-hidden bg-gradient-to-r from-black via-stone-500 from-5% to-stone-400 text-pretty text-center text-gray-300 border hover:border-spacing-3 min-w-60 hover:scale-110 hover: ease-linear duration-150 hover:shadow'>
             <img src={PlaceHolderImage} alt="" />
             <h1 className="font-bold mt-3">{prop.name}</h1>
             <p>{prop.title}</p>

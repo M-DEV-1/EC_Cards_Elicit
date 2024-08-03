@@ -5,7 +5,7 @@ import PlaceHolderImage from "../assets/team-placeholder.jpg"
 function ExecCard(prop){
    return (
     <div className='p-10'>
-        <div className='w-72 h-80 rounded-xl font-mono overflow-hidden bg-gradient-to-r from-black via-stone-500 from-5% to-stone-400 text-pretty text-center text-gray-300 border hover:border-spacing-3 min-w-60 hover:scale-110 hover: ease-linear duration-150 hover:shadow'>
+        <div className='z-2 w-72 h-80 rounded-xl font-mono overflow-hidden bg-gradient-to-r from-black via-stone-500 from-5% to-stone-400 text-pretty text-center text-gray-300 border hover:border-spacing-3 min-w-60 hover:scale-110 hover: ease-linear duration-150 hover:shadow'>
             <img src={PlaceHolderImage} alt="" />
             <h1 className="font-bold mt-3">{prop.name}</h1>
             <p>{prop.title}</p>
@@ -25,6 +25,12 @@ function ExecCard(prop){
                 </ul>
             </div>
         </div>
+        {/* shadow 1
+        <div className='absolute z-1 w-32 h-80 rounded-xl bg-white shadow-md hover:scale-110 ease-linear duration-150'></div> */}
+        {/* shadow 2 */}
+        {/* <div className='absolute z-0 w-20 h-80 rounded-xl bg-white shadow-md'></div> */}
+
+        {/* TO BE IMPLEMENTED */}
     </div>
     )
    
